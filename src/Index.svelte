@@ -3,9 +3,9 @@
 </script>
 
 <main>
-  <a href="https://github.com/Colaski/global-streaming-search"
+  <a href="https://wannaflix.com"
     ><img
-      src="https://colaski.github.io/global-streaming-search/images/github.png"
+      src="/images/logo.png"
       alt="github logo"
     /></a
   >
