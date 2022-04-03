@@ -1,5 +1,5 @@
 <div>
-  <a href="https://colaski.github.io/global-streaming-search/"><h1>Global Streaming Search</h1></a>
+  <a href="https://wannaflix.com/"><h1>Unblock Streaming Regions With WannaFlix</h1></a>
 </div>
 
 <style>
