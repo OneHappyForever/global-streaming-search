@@ -1,4 +1,4 @@
-import { all_locales, all_providers } from "./data";
+// import { all_locales, all_providers } from "./data";
 function proxy() {
     return "";
 }
