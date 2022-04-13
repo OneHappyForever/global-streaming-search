@@ -115,7 +115,8 @@ export async function distilled_providers(): Promise<[Provider]> {
 
     i["providers"].forEach((i: any) => {
       if (i["monetization_types"] == null) {
-        console.log("Could not add as i[\"monetization_types\"] is null: " + i);
+        console.log("Could not add as i[\"monetization_types\"] is null.");
+        console.log(i);
       } else if (i["monetization_types"].includes("flatrate") || i["monetization_types"].includes("free") || i["monetization_types"].includes("ads")) {
         var monetization_types = i["monetization_types"]
 
