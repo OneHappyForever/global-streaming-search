@@ -116,6 +116,7 @@ export async function distilled_providers(): Promise<[Provider]> {
     i["providers"].forEach((i: any) => {
       if( i["monetization_types"] == null) {
         console.log(i);
+        continue;
       }
         
       if (i["monetization_types"].includes("flatrate") || i["monetization_types"].includes("free") || i["monetization_types"].includes("ads")) {
