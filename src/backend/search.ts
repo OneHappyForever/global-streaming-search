@@ -114,12 +114,9 @@ export async function distilled_providers(): Promise<[Provider]> {
     let provs: any = []
 
     i["providers"].forEach((i: any) => {
-      if( i["monetization_types"] == null) {
-        console.log(i);
-        continue;
-      }
-        
-      if (i["monetization_types"].includes("flatrate") || i["monetization_types"].includes("free") || i["monetization_types"].includes("ads")) {
+      if (i["monetization_types"] == null) {
+        console.log("Could not add as i[\"monetization_types\"] is null: " + i);
+      } else if (i["monetization_types"].includes("flatrate") || i["monetization_types"].includes("free") || i["monetization_types"].includes("ads")) {
         var monetization_types = i["monetization_types"]
 
         let regex = new RegExp("\\s*([0-9]+)")
